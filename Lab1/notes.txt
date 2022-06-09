@@ -1,0 +1,13 @@
+AI:
+	Neural Networks (Deep Learning):
+
+	Expert Systems:
+		The classical modus ponens argument is this:
+
+		1. If Socrates is a man, Socrates is mortal.
+		2. Socrates is a man.
+
+		3. Socrates is mortal.
+
+
+
