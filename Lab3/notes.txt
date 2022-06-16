@@ -1,0 +1,15 @@
+SepalLengthCm 	 	Species
+X
+1 					setosa
+5 					versicolor
+1.2					setosa
+0.9					setosa
+5.2					versicolor
+4.9					versicolor
+
+
+setosa 		= 	0<X<5
+versicolor  =   4.8<X<5.3
+
+Input: 5.2
+
