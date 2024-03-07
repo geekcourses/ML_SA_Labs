@@ -3,3 +3,24 @@ Course hours:
     18.30 - 21.00, including 15 min. break
 
 GitHub:
+    open source colabborative platform
+
+Dataset:
+
+    Formats: CSV: Comma Separated Values:
+
+
+
+Memory:
+    bit: 0/1
+    byte: 8bit
+    1KB: 1024byte
+    1MB: 1024KB
+    1GB: 1024MB
+    1TB: 1024Gb
+
+ 4GB RAM
+ 64GB Storage (HDD, SSD, Flash)
+
+CPU:
+  2.4 GHz
