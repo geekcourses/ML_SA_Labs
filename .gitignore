@@ -1,0 +1,36 @@
+# all hidden files, except .gitignore
+.*
+!/.gitignore
+___*
+
+
+tmp/**
+**/*.tmp
+**/*.old
+**/.tags*
+**/*fuse*
+**/*.log
+logs/**
+nohup*
+subl_*
+
+# shell files
+*.sh
+
+# IDE - VSCode
+!/.vscode
+.vscode/settings.json
+# !/.vscode/tasks.json
+# !.vscode/launch.json
+# !.vscode/extensions.json
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# folders:
+# .*/**
+students/**
+
+# **/datasets/**
+

@@ -1,0 +1,24 @@
+{
+	"spellright.language": [
+		"Bulgarian",
+		"English (American)"
+	],
+	"spellright.documentTypes": [
+		"markdown",
+		"latex",
+		"plaintext",
+		"html"
+	],
+	"files.autoGuessEncoding":true,
+	"[markdown]": {
+		"editor.unicodeHighlight.ambiguousCharacters": false,
+		"editor.unicodeHighlight.invisibleCharacters": false,
+		"editor.wordWrap": "on",
+		"editor.quickSuggestions": {
+			"comments": "on",
+			"strings": "on",
+			"other": "on"
+		},
+		"files.encoding": "utf8"
+	}
+}
