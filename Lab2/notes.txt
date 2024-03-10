@@ -1,0 +1,9 @@
+scalar = 1
+vector = [1,2,3,4]
+
+
+Discrete Set of values:
+[10, 20, 30, 40, 50 , 60]
+
+Continuous Set of values:
+[1..100] =>1.2, 1.22223322, .... infinity
