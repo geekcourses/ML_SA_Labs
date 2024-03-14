@@ -1,0 +1,14 @@
+open-source : програма с "отворен код"
+Windows: closed source
+Linux: open-source
+
+open-source != free
+
+
+JupyterLab >= Jupyter Notebook
+
+VSCode (MS)
+
+VCS == Source Control == Git
+
+GitHub (MS) = cloud, integrated with Git (GitLab, Butbucket)
