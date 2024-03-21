@@ -1,0 +1,10 @@
+# create virtenv:
+python -m venv .venv
+
+# activate .venv
+.venv\Scripts\activate
+
+# install dependencies
+pip install jupyterlab
+
+
