@@ -1,4 +1,14 @@
 {
+	"python.terminal.activateEnvironment": false,
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.pythonPath": "/usr/bin/python3",
+    "python.analysis.diagnosticMode": "workspace",
+    "python.analysis.extraPaths": [
+		"./",
+		"${workspaceFolder}",
+		"${workspaceFolder}/.venv"
+	],
 	"spellright.language": [
 		"Bulgarian",
 		"English (American)"
@@ -20,6 +30,5 @@
 			"other": "on"
 		},
 		"files.encoding": "utf8"
-	},
-	"editor.fontSize": 20
+	}
 }
