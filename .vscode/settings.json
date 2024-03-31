@@ -16,7 +16,6 @@
 	"spellright.documentTypes": [
 		"markdown",
 		"latex",
-		"plaintext",
 		"html"
 	],
 	"files.autoGuessEncoding":true,
