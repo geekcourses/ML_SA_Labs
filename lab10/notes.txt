@@ -1,0 +1,39 @@
+python v:
+    3.11.9 => 3.11.10 ( bug fixes)
+    3.11.14 => 3.12.0 ( added feature)
+
+
+RAM:
+HDD/SSD/Flash Drive:
+
+Memory
+# 1bit: 0/1
+
+# 1byte:
+#     00000000 (0)
+#     00000001 (1)
+#     00000010 (2)
+
+# ...11111111 : 256
+
+# 1KiByte: 1024byte
+# 1MiByte: 1024byte
+
+
+
+
+x = 1
+y = '1'
+
+# # RAM:
+# #     program:
+# #         0101010101010..
+# #     values:
+# #         x:0x123: 00000001
+# #         y:0x123: 11010001
+
+
+
+
+
+
