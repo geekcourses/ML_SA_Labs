@@ -22,8 +22,9 @@
 
 
 # ------------------------------ Define function ----------------------------- #
-# def foo():
-#     print("I'm Foo")
+def foo():
+    print("I'm Foo")
+
 
 # x = 1
 
