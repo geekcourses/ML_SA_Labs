@@ -1,0 +1,20 @@
+# HR:
+#     developer:
+#         name: petar petrov
+#         age: 23
+#         salary: 4000
+#         skills: Python, ML
+
+#         greet(): Hello, I'm ...
+#         work()
+
+#     manager:
+#         name: Ivan Ivanov
+#         age: 56
+#         salary: 8000
+#         managees: petar,
+
+
+dev1 = {
+
+}
