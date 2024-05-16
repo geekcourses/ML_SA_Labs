@@ -1,8 +1,10 @@
 # all hidden files, except .gitignore
 .*
 !/.gitignore
+
 ___*
 
+__pycache__
 
 tmp/**
 **/*.tmp
