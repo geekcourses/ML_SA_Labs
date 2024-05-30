@@ -1,18 +1,28 @@
 import numpy as np
 
-data1 = np.array([1,2,3,4,5])
-data1_mean = np.mean(data1)
+raw_data = [1,2,3,4,5]
+data1 = np.array(raw_data)
 
-sqrt_differences = (data1-data1_mean)**2
-print(sqrt_differences)
+# print(f'sum: {sum(raw_data)}')
+# print(f'count: {len(raw_data)}')
+# print(f'mean: {sum(raw_data)/len(raw_data)}')
 
-var = np.sum(sqrt_differences) / data1.size
-print(f'our variance: {var}')
-print(f'np variance: {np.var(data1,)}')
+mean = data1.mean()
+# print(f'mean: {mean}')
 
-std = np.sqrt( var )
-print(f'our std: {std}')
-print(f'np std: {np.std(data1)}')
+sum_of_square_differences = np.sum( (data1-mean)**2 )
+# print(sum_of_square_differences)
+
+N = data1.size
+variance = sum_of_square_differences/N
+print( variance )
+print(f'np.var:{np.var(data1)}')
+
+std = np.sqrt(variance)
+print(f'std: {std}')
+print(f'np.std: {np.std(data1)}')
+
+
 
 
 
