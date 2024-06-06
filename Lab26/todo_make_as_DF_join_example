@@ -1,0 +1,15 @@
+user:
+id|name | age| address_id|
+1 |Ivan | 23 | 1
+2 |Maria| 33 | 2
+3 |Asen | 23 | 1
+4 |Ivan | 53 | 2
+
+
+addres:
+id|country| town
+1 | BG    | Sofia
+2 | BG    | Plovdiv
+
+
+
