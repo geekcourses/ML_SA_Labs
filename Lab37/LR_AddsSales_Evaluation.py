@@ -63,9 +63,9 @@ if __name__ == "__main__":
     radio=1.000000
     newspaper = 0.354104
 
-    # TODO: make it work
+    # DONE: make it work
     predicted_sales = best_model.predict(pd.DataFrame({
-        'tv':[tv],
+        'TV':[tv],
         'radio':[radio],
         'newspaper':[newspaper]
     }))
