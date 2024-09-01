@@ -1,0 +1,83 @@
+Sample vs Populatoin in stats:
+Sample - 1000 man
+Population = all man
+
+
+Example: Dice Roll:
+    S = {1,2,3,4,5,6}
+
+    P(6) = 1/6 = 0.17
+    P(1,3,5) = 3/6 = 0.5
+
+    P(6) = 1 - P(6')
+    P(6') = P(1,2,3,4,5) = 5/6 = 0.84
+
+
+
+Probability Addition: Probability of the union of two events:
+    P(A or B) = P(A) + P(B) - P(A and B)
+    P(3 or 5) = P(3) + P(5) - P(3 and 5)
+              = 1/6 + 1/6 - 0 = 0.34
+
+Probability Multiplication:
+    Multiplication rule for independent events:
+
+    S(dice) = {1,2,3,4,5,6}
+    S(coin) = {H,T}
+
+    P(A and B) = P(A) * P(B)
+    P(6 and H) = P(6) * P(H) = 1/6 * 1/2 = 0.0834
+
+
+
+Multiplication rule for dependent events:
+    A = Roll 6
+    B = On Second roll, sum of rolls to be 12
+
+
+    P(A and B) = P(A) * P(B|A)
+
+
+Conditional Probability:
+    P(A|B) =  P(A and B) / P(B)
+
+
+
+Bayess Theorem:
+
+    P(A|B) = P(B|A) * P(A) / B(B)
+
+
+    Example:
+        PCR test is tested on 1000 person
+        600 - has virus
+        400 - no virus
+
+        People that have virus = 0.01
+
+        PCR test specifity = 0.9
+            If a person has virus, the test will be positive for 90%
+            TP (True Positive) = 0.9*600=540
+            FN (False Negative) = 0.1*600 = 60
+
+        PCR test sensitivity = 0.95
+            the test gives a negative result for 95% of the people who are virus-free
+            If a person have no virus, the test will be Negative for 95%
+            TN (True Negative) = 0.95 * 400 = 380
+            FP (False Positive) = 0.05 * 400 = 20
+
+        If a tested person, and the test is positive, what is the probability this person to have the virus?
+
+        P(virus|+) = ( P(+|virus) * P(virus) ) / P(+)
+                = (0.9  * 0.01) / P(+)
+                = (0.9  * 0.01) / TP*FP
+                = (0.9  * 0.01) / (0.9* 0.05) =
+
+
+
+        P(+|virus)
+
+
+
+
+

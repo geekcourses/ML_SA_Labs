@@ -1,0 +1,7 @@
+KNN
+Logistic Regresion
+SVM
+Desigion Trees
+Naive Bayess
+Percepton
+
