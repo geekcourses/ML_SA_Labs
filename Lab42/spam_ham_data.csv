@@ -1,0 +1,6 @@
+,Email,"Contains ""free""","Contains ""offer""","Contains ""meeting""",Class
+0,Email 1,Yes,Yes,No,Spam
+1,Email 2,Yes,No,Yes,Spam
+2,Email 5,Yes,No,No,Spam
+3,Email 3,No,Yes,No,Ham
+4,Email 4,No,No,Yes,Ham
