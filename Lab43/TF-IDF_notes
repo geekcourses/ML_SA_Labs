@@ -1,0 +1,20 @@
+Document Corpus:
+    Doc 1: "appl appl appl appl banana  banana",
+    Doc 2: "appl car  car"
+
+Binary Presentation - 1 - token is present, 0 - not present
+
+        'appl' |'car' | 'banana'
+Doc1:    1     | 0    | 1
+Doc2:    1     | 1    | 0
+
+Term Frequence
+
+        'appl' |'car' | 'banana'
+Doc1:    4/6   | 0    | 2/6
+Doc2:    1/3   | 2/4  | 0
+
+Term Frequence - Inverce Document Frequency (TF-IDF)
+     'appl'     |'car'  | 'banana'
+Doc1:    4/6 /2   | 0     | 2/6
+Doc2:    1/3    | 2/4   | 0
